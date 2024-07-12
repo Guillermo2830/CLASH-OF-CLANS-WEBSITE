@@ -1,0 +1,132 @@
+.skins-about {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,63,205,1) 35%, rgba(0,212,255,1) 100%);
+    position:relative;
+    display: grid;
+    align-items: center;
+
+}
+.skins-text h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 95px;
+    line-height: 1;
+    color: white;
+    margin: 0px 150px 45px;
+
+}
+
+.skins-text p {
+
+    color: white;
+    font-size: 20px;
+    line-height: 1.9;
+    margin-bottom: 45px;
+    text-align: justify;
+    margin: 0px 150px 45px;
+}
+
+.skins-section {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,63,205,1) 35%, rgba(0,212,255,1) 100%);
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15rem;
+
+}
+.skininfo h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 95px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+}
+
+.skininfo p {
+    color: white;
+    font-size: 24px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    text-align: justify;
+    margin: 0px 0px 80px;
+}
+
+.skins-img img{
+
+    width: 700px;
+    height: auto;
+    border: 6px solid white;
+    border-radius: 22px;
+    box-shadow: 25px 25px 25px 20px black;
+
+}
+
+@media (max-width: 1340px) {
+
+    .skins-img {
+
+        width: 100%;
+        height: auto;
+    }
+    
+    .skins-text h1{
+
+        font-size: 75px;
+        margin: 0 0 30px;
+    }
+
+}
+@media (max-width: 1195px){
+   
+    section{
+
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .skins{ 
+
+        padding-top: 115px;
+
+    }
+    .skins-img {
+
+        text-align: center;
+    }
+    
+    .skins-img img {
+
+        width: 560px;
+        height: auto;
+    }
+    
+    .skins-section {
+
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .icons {
+        
+        display: none;
+    }
+    .scroll-down{
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .skins-img {
+
+        width: 100%;
+        height: auto;
+    }
+    
+}
